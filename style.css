@@ -91,16 +91,24 @@ article > h1 {
     font-size: 35px;
     padding-left: 10px;
     font-family: var(--fontMerienda);
- }
+}
+
+h3 {
+    background-color: var(--cor2);
+    color: var(--cor1);
+    font-size: 25px;
+    padding-left: 10px;
+    font-family: var(--fontMerienda);
+}
 
 article > p > a {
-    color: var(--cor2);
+    color: var(--cor1);
     text-decoration: none;
 }
 
 article > p > a:hover  {
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor3);
 }
 
 
@@ -110,15 +118,18 @@ p {
     font-size: 25px;
     font-family: var(--fontCaveat);
     font-weight: bold;
+    text-indent: 20px;
 }
 
 strong {
-    color: var(--cor2);
+    color: var(--cor3);
 }
+
 footer {
     background-color: #F291BF;
     margin: 20px 0px 0px 0px;
 }
+
 footer > p {
     font-size: 20px;
     text-align: center;
