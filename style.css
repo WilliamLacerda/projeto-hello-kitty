@@ -160,7 +160,7 @@ div {
 
 div > img {
     max-width: 1000px;
-    min-width: 350px;
+    min-width: 250px;
     display: block;
     margin: auto;
 }
