@@ -125,26 +125,45 @@ strong {
     color: var(--cor3);
 }
 
-picture {
-    background-color: var(--cor2);
-    width: 500px;
-    height: 500px;
+div {
+    background-color: var(--cor3);
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     position: relative;
 }
 
-picture > img {
-    max-width: 500px;
+div > img {
+    max-width: 1000px;
+    min-width: 350px;
     display: block;
     margin: auto;
 }
+
+
 
 p.centro {
     text-align: center;
+    color: var(--cor3);
+    font-family: fantasy;
 }
 
-div > img {
+div.amigos > img {
     display: block;
     margin: auto;
+    padding: 10px;
+}
+
+div.parentes > img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+div.lenda > img {
+    display: block;
+    margin: auto;
+    padding: 10px;
 }
 
 footer {
